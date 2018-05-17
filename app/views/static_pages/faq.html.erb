@@ -27,34 +27,23 @@
     <%= render 'static_pages/header/header' %>
 <!-- CONTENT --------------------------------------------------------------------------------->
 
-<!-- Intro Section -->
-        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="img/full/02.jpg">
-            <div class="container">
-                <div class="row title">
-                    <h2 class="h2">Faq</h2>
-                    <div class="page-breadcrumb">
-                        <a><%= link_to "Home", root_path%></a>/<span>Faq</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-<!-- End Intro Section -->
+        <%= render 'static_pages/faq/intro' %>
 
         <!-- Faq Section -->
         <section class="ptb ptb-sm-80">
             <div class="container">
                 <div class="tabs b-lrb-none">
                     <ul>
-                        <li><a href="#tabs-1"><i class="ion ion-help-circled left"></i>Help</a></li>
-                        <li><a href="#tabs-2"><i class="ion ion-help-buoy left"></i>Question</a></li>
+                        <li><a href="#tabs-1"><i class="ion ion-ios-compose-outline left"></i>Editing</a></li>
+                        <li><a href="#tabs-2"><i class="ion ion-ios-recording-outline left"></i>Recording</a></li>
                         <li><a href="#tabs-3"><i class="ion ion-ios-list left"></i>Listing</a></li>
                     </ul>
                     <div class="ui-tab-content">
                         <div id="tabs-1" class="plr-0">
-                            <%= render 'static_pages/faq/help' %>
+                            <%= render 'static_pages/faq/edit_questions' %>
                         </div>
                         <div id="tabs-2" class="plr-0">
-							<%= render 'static_pages/faq/question' %>
+							<%= render 'static_pages/faq/recording_questions' %>
                         </div>
                         <div id="tabs-3" class="plr-0">
                             <div class="row">
