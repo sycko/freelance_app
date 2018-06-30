@@ -5634,7 +5634,7 @@ button.close {
 }
 
 @supports ((-webkit-transform: translate3d(0, 0, 0)) or (transform: translate3d(0, 0, 0))) {
-    .carousel-item-next.carousel-item-left, .carousel-item-prev.carousel-item-right;
+    .carousel-item-next.carousel-item-left, .carousel-item-prev.carousel-item-right
 
 {
     -webkit-transform: translate3d(0, 0, 0);
