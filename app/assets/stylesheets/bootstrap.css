@@ -4756,10 +4756,8 @@ a.badge:focus, a.badge:hover {
 }
 
 @-o-keyframes progress-bar-stripes {
-    from;
-
-{
-    background-position: 1rem 0;
+    from {
+        background-position: 1rem 0;
 }
 
 to {
